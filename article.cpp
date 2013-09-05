@@ -1,0 +1,6 @@
+
+Article::Article()
+{
+	title = "";
+	body = "";
+}

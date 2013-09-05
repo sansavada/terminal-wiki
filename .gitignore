@@ -1,0 +1,20 @@
+# Extra Folders
+libs
+
+# Vim Swap File
+*.swp
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.x
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a

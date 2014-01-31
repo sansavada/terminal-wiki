@@ -19,7 +19,7 @@ std::string View::drawSearch()
 void View::drawArticle(Article *article)
 {
 	std::cout << "Article\n";
-	cout << "Title:" << article->title << "\n";
+	std::cout << "Title:" << article->title << "\n";
 	std::cout << "Body:" << article->body << "\n";
 	std::cout << "------------------------------\n";
 }
@@ -41,8 +41,8 @@ std::string View::drawMenu()
 			std::cin.ignore(100, '\n');
 			std::cout << "Select a menu option:\n";
 		}
-		std::cin >> choice
+		std::cin >> choice;
 	} while(choice <= 0 || choice > 4);
 
-	return options[-1];
+	return options[choice-1];
 }
